@@ -1,20 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: lightslategray;
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+}
+.main {
+	margin: 50px;
+	border: 1px;
+}
 img.logo {
 	width: 300px;
 	height: 150px;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
+	cursor: pointer;
 }
+.navbar {
+	list-style: none;
+}
+.navbar li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+.navbar li a {
+	transition: all 0.3 ease 0s;
+}
+.navbar li a:hover {
+	color: blue;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-gap: 1em;
+	grid-auto-rows: minmax(100%, auto);
+}
+
 .wrapper > div {
-	background: grey;
 	padding: 1em;
 }
 .wrapper > div:nth-child(odd) {
 	background: #ddd;
-}
-
-div.wrapper {
-	display: grid;
 }
 
 div.summary {
@@ -23,5 +66,4 @@ div.summary {
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
-	background: grey;
 }

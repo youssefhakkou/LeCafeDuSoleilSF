@@ -1,0 +1,27 @@
+img.logo {
+	width: 300px;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+.wrapper > div {
+	background: grey;
+	padding: 1em;
+}
+.wrapper > div:nth-child(odd) {
+	background: #ddd;
+}
+
+div.wrapper {
+	display: grid;
+}
+
+div.summary {
+	display: grid;
+	grid-template-columns: auto;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	background: grey;
+}

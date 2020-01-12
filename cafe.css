@@ -22,7 +22,10 @@ header {
 	padding: 30px;
 }
 .main {
-	margin: 50px;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding: 25px;
 	border: 1px;
 }
 img.logo {
@@ -34,36 +37,36 @@ img.logo {
 	cursor: pointer;
 }
 .navbar {
+	margin-left: auto;
+	margin-right: auto;
 	list-style: none;
+	text-align: center;
+	padding: 25px;
 }
 .navbar li {
 	display: inline-block;
 	padding: 0px 20px;
+	text-decoration: none;
+	color: lightgoldenrodyellow;
 }
-.navbar li a {
-	transition: all 0.3 ease 0s;
-}
+
 .navbar li a:hover {
-	color: blue;
-}
-.wrapper {
-	display: grid;
-	grid-template-columns: 70% 30%;
-	grid-gap: 1em;
-	grid-auto-rows: minmax(100%, auto);
-}
-
-.wrapper > div {
-	padding: 1em;
-}
-.wrapper > div:nth-child(odd) {
-	background: #ddd;
-}
-
-div.summary {
-	display: grid;
-	grid-template-columns: auto;
-	margin-right: auto;
 	margin-left: auto;
+	margin-right: auto;
+	color: lightskyblue;
+}
+.navbar li a:visited {
+	text-decoration: none;
+}
+.navbar li a:link {
+	text-decoration: none;
+}
+
+.coffee {
+	max-width: 70%;
+	height: auto;
+	border-radius: 8px;
+	margin-left: auto;
+	margin-right: auto;
 	display: block;
 }

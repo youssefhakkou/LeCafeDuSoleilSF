@@ -50,16 +50,17 @@ img.logo {
 	color: lightgoldenrodyellow;
 }
 
-.navbar li a:hover {
-	margin-left: auto;
-	margin-right: auto;
-	color: lightskyblue;
-}
 .navbar li a:visited {
 	text-decoration: none;
 }
 .navbar li a:link {
 	text-decoration: none;
+}
+.navbar li a:hover {
+	margin-left: auto;
+	margin-right: auto;
+	color: lightskyblue;
+	text-decoration: underline;
 }
 
 .coffee {
@@ -69,4 +70,17 @@ img.logo {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+
+/* Footer */
+footer {
+	width: 100%;
+	padding: 20px;
+}
+
+.footer {
+	border-top: 0.05rem solid grey;
+	text-align: center;
+	padding: 20px;
+	color: black;
 }
